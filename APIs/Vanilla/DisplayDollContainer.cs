@@ -3,7 +3,7 @@ using Terraria;
 using Terraria.GameContent.Tile_Entities;
 using Terraria.ID;
 
-namespace ConduitLib.Test.APIs.Vanilla
+namespace ItemContainerLib.APIs.Vanilla
 {
     public class DisplayDollContainer : IItemContainer
     {

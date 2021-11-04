@@ -1,10 +1,10 @@
-﻿using ConduitLib.Test.APIs.Vanilla;
+﻿using ItemContainerLib.APIs.Vanilla;
 using System;
 using Terraria;
 using Terraria.DataStructures;
 using Terraria.GameContent.Tile_Entities;
 
-namespace ConduitLib.Test.APIs
+namespace ItemContainerLib.APIs
 {
     public static class ItemContainerUtil
     {
@@ -89,7 +89,7 @@ namespace ConduitLib.Test.APIs
             for (int i = 0; i < itemContainer.ContainerSize; i++)
             {
                 var origItem = itemContainer[i];
-                
+
                 if (origItem.IsTheSameAs(item))
                 {
                     int stack = Math.Min(item.stack, Math.Min(itemContainer.MaxStack(i), origItem.maxStack) - origItem.stack);

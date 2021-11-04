@@ -3,7 +3,7 @@ using Terraria.ID;
 using Terraria.Localization;
 using Terraria.ModLoader;
 
-namespace ConduitLib.Test.APIs.Vanilla
+namespace ItemContainerLib.APIs.Vanilla
 {
     public class ChestContainer : IItemContainer
     {

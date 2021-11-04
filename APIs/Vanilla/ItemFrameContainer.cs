@@ -1,9 +1,8 @@
 ﻿using Terraria;
-using Terraria.DataStructures;
 using Terraria.GameContent.Tile_Entities;
 using Terraria.ID;
 
-namespace ConduitLib.Test.APIs.Vanilla
+namespace ItemContainerLib.APIs.Vanilla
 {
     public class ItemFrameContainer : IItemContainer
     {

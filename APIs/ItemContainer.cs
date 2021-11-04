@@ -4,7 +4,7 @@ using Terraria.ID;
 using Terraria.ModLoader;
 using Terraria.ModLoader.IO;
 
-namespace ConduitLib.Test.APIs
+namespace ItemContainerLib.APIs
 {
     public abstract class ItemContainer : ModTileEntity, IItemContainer
     {
