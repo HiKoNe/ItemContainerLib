@@ -1,0 +1,1 @@
+Contains a Global Interface for synchronizing items with mods.
