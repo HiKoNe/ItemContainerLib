@@ -1,1 +1,4 @@
 Contains a Global Interface for synchronizing items with mods.
+
+All Issues in Discord*
+All Changelogs in Site*

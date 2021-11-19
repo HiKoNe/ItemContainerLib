@@ -112,7 +112,9 @@ namespace ItemContainerLib.APIs
                     if (itemContainer[i].IsAir)
                     {
                         int stack = Math.Min(itemContainer.MaxStack(i), item.stack);
-                        itemContainer[i] = new(item.type, stack);
+                        var newItem = item.Clone();
+                        newItem.stack = stack;
+                        itemContainer[i] = newItem;
                         item.stack -= stack;
                     }
 
